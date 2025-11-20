@@ -1,0 +1,5 @@
+[cargo]
+target = "thumbv7m-none-eabi"
+
+[checkOnSave]
+allTargets = false

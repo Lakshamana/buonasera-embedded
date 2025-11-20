@@ -1,0 +1,14 @@
+[package]
+name = "buonasera-embedded"
+version = "0.1.0"
+
+[[bin]]
+name = "buonasera-embedded"
+test = false
+doctest = false
+bench = false
+
+[dependencies]
+cortex-m = { version = "0.7.7", features = ["inline-asm"] }
+cortex-m-rt = "0.7.5"
+cortex-m-semihosting = "0.5.0"
